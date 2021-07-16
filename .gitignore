@@ -30,7 +30,7 @@
 *Release/
 *Debug/
 *.sdf
-*build/
+*build*/
 *model/
 *.opensdf
 *.suo
