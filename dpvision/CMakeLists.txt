@@ -6,7 +6,6 @@ endif(COMMAND cmake_policy)
 include_directories(../3rdparty/include)
 include_directories(../common)
 
-link_directories(../3rdparty/lib/opencv)
-link_directories(../mnn_core/lib)
+link_directories(../3rdparty/lib)
 
 add_subdirectory(face_detect)

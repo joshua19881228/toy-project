@@ -8,8 +8,7 @@ include_directories(../common)
 include_directories(../mnn_core/include)
 include_directories(../mnn_core/)
 
-link_directories(../3rdparty/lib/opencv)
-link_directories(../mnn_core/lib)
+link_directories(../3rdparty/lib)
 
 
 aux_source_directory(../common COMMON_SRCS)
