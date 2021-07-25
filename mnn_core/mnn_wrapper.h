@@ -36,4 +36,7 @@ private:
 
     std::shared_ptr<MNN::Interpreter> net;
     MNN::Session* session;
+public:
+    MNN::ScheduleConfig config;
+    MNN::BackendConfig backend_config;
 };
